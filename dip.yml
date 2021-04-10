@@ -1,0 +1,10 @@
+version: '4.1'
+
+interaction:
+  go:
+    service: app
+    command: go
+
+  bash:
+    service: app
+    command: /bin/bash
