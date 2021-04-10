@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  app:
+    image: golang:1.15-buster
+    volumes:
+      - .:/go/src/lets-golang
+    working_dir: /go/src/lets-golang
